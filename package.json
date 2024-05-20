@@ -1,0 +1,51 @@
+{
+  "name": "onetong3fang-demo",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@univerjs/core": "^0.1.9",
+    "@univerjs/design": "^0.1.9",
+    "@univerjs/docs": "^0.1.9",
+    "@univerjs/docs-ui": "^0.1.9",
+    "@univerjs/engine-formula": "^0.1.9",
+    "@univerjs/engine-render": "^0.1.9",
+    "@univerjs/facade": "^0.1.9",
+    "@univerjs/sheets": "^0.1.9",
+    "@univerjs/sheets-formula": "^0.1.9",
+    "@univerjs/sheets-ui": "^0.1.9",
+    "@univerjs/ui": "^0.1.9",
+    "axios": "^1.6.8",
+    "dat.gui": "^0.7.9",
+    "echarts": "^5.5.0",
+    "echarts-gl": "^2.0.9",
+    "element-plus": "^2.7.2",
+    "gsap": "^3.12.5",
+    "lodash": "^4.17.21",
+    "ol": "^9.1.0",
+    "pinia": "^2.1.7",
+    "three": "^0.153.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.8.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "exceljs": "^4.4.0",
+    "luckyexcel": "^1.0.1",
+    "prettier": "^3.2.5",
+    "sass": "^1.76.0",
+    "vite": "^5.2.11",
+    "vite-plugin-vue-devtools": "^7.0.25"
+  }
+}

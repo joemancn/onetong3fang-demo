@@ -1,0 +1,69 @@
+@import './styles/iconfont.css';
+
+@font-face {
+  font-family: 'PangMenZhengDao';
+  src: url('./font/pmzd3.0.ttf');
+}
+
+@font-face {
+  font-family: 'AlibabaPuHuiTi_2_85_Bold';
+  src: url('./font/AlibabaPuHuiTi-2-85-Bold.ttf');
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'AlibabaPuHuiTi_2_85_Bold';
+}
+
+.el-table {
+  --el-table-border-color: rgba(230, 242, 255, 0.10);
+  --el-table-border: 1px solid rgba(230, 242, 255, 0.10);
+  --el-table-row-hover-bg-color: rgba(92, 161, 230, 0.20);
+  --el-table-current-row-bg-color: rgba(92, 161, 230, 0.20);
+
+  .el-popper {
+    position: absolute !important;
+  }
+
+  table {
+    // border-collapse: collapse;
+  }
+
+
+  .el-table__inner-wrapper {
+    color: #fff; // 表格文字颜色
+
+    .el-table__header-wrapper {
+
+      // 表格头部
+      th {
+        color: #5d84c8;
+        background-color: rgba(230, 242, 255, 0.10);
+      }
+    }
+
+    .el-table__body-wrapper {
+      .el-table__row {
+        background-color: transparent;
+        // background-image: url("../images/ui2/table-list.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+        &:hover,
+        &:focus,
+        &:active,
+        &.current-row {
+          background-color: transparent;
+          // background-image: url("../images/ui2/hover-table-list.png");
+        }
+
+      }
+    }
+
+  }
+
+}
