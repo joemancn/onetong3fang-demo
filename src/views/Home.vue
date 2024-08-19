@@ -17,7 +17,9 @@ import Header from '@/components/Header.vue';
 import Navbar from '@/components/Navbar.vue';
 import { RouterView } from 'vue-router'
 
-
+// 语音播报
+var utterThis = new window.SpeechSynthesisUtterance('测试语音播报');
+window.speechSynthesis.speak(utterThis);
 // function handleSelect(index) {
 //     console.log(index)
 // }
